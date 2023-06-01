@@ -1,1 +1,8 @@
+version: "3.7"
 
+services:
+  app:
+    container_name: appnode-02
+    image: r7sousa/node-lab:v2.0 
+    ports:
+      - 8081:8080
