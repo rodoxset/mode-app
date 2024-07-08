@@ -1,8 +1,0 @@
-version: "3.7"
-
-services:
-  app:
-    container_name: appnode-04
-    image: r7sousa/app-lab:latest
-    ports:
-      - 3000:3000
