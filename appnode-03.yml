@@ -1,8 +1,0 @@
-version: "3.7"
-
-services:
-  app:
-    container_name: appnode-03
-    image: r7sousa/node-lab:latest 
-    ports:
-      - 8083:8080
